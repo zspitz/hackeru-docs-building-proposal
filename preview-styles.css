@@ -1,0 +1,7 @@
+* {
+    direction: rtl;
+}
+
+pre *, code {
+    direction: ltr;
+}
