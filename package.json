@@ -1,16 +1,25 @@
 {
   "name": "hackeru-docs-building-proposal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "נכון לעכשיו החומר מכיל 3 רכיבים:",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zspitz/hackeru-docs-building-proposal.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zspitz/hackeru-docs-building-proposal/issues"
+  },
+  "homepage": "https://github.com/zspitz/hackeru-docs-building-proposal#readme",
+  "type": "module",
   "devDependencies": {
-    "@types/node": "^20.6.4",
+    "@types/node": "^20.7.0",
     "typescript": "^5.2.2"
   }
 }
