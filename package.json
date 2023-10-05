@@ -21,5 +21,9 @@
   "devDependencies": {
     "@types/node": "^20.7.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "marked": "^9.0.3",
+    "pptxgenjs": "^3.12.0"
   }
 }
